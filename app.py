@@ -80,4 +80,4 @@ else:
             # 額外細節
             st.text(f"期刊名稱：{row.get('刊登期刊名稱', '不詳')}")
 
-        st.markdown("<br>", unsafe_allow_stdio=True)
+        st.markdown("<br>", unsafe_allow_html=True)
